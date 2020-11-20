@@ -7,11 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="319,267,0,0" VerticalAlignment="Top" Width="162" Height="44" Click="Button_Click"/>
-        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" Margin="270,137,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="266"/>
-        <TextBox x:Name="txtLast" HorizontalAlignment="Left" Height="23" Margin="270,193,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="266"/>
-        <Label Content="Name" HorizontalAlignment="Left" Margin="207,137,0,0" VerticalAlignment="Top"/>
-        <Label Content="LastName" HorizontalAlignment="Left" Margin="186,189,0,0" VerticalAlignment="Top"/>
+        <Button Content="คำนวณ" HorizontalAlignment="Left" Margin="510,166,0,0" VerticalAlignment="Top" Width="162" Height="44" Click="Button_Click"/>
+        <TextBox x:Name="txtInCome" HorizontalAlignment="Left" Height="23" Margin="257,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127"/>
+        <TextBox x:Name="txtExPendITure" HorizontalAlignment="Left" Height="23" Margin="257,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127"/>
+        <Label Content="รายได้" HorizontalAlignment="Left" Margin="202,85,0,0" VerticalAlignment="Top"/>
+        <Label Content="รายจ่าย" HorizontalAlignment="Left" Margin="194,142,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtWant" HorizontalAlignment="Left" Height="23" Margin="257,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127"/>
+        <TextBox x:Name="txtAllMoney" HorizontalAlignment="Left" Height="23" Margin="257,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" IsReadOnly="True"/>
+        <Label Content="ราคาของที่อยากได้" HorizontalAlignment="Left" Margin="146,193,0,0" VerticalAlignment="Top"/>
+        <Label Content="คุณต้องเก็บเงินทั้งหมด" HorizontalAlignment="Left" Margin="129,249,0,0" VerticalAlignment="Top"/>
+        <Label Content="บาท" HorizontalAlignment="Left" Margin="415,85,0,0" VerticalAlignment="Top"/>
+        <Label Content="บาท" HorizontalAlignment="Left" Margin="415,142,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.64,0.479"/>
+        <Label Content="บาท" HorizontalAlignment="Left" Margin="415,196,0,0" VerticalAlignment="Top"/>
+        <Label Content="บาท ต่อวัน" HorizontalAlignment="Left" Margin="415,249,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

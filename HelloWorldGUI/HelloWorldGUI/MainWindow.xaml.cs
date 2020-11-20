@@ -27,7 +27,15 @@ namespace HelloWorldGUI
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hello " + txtName.Text + " " + txtLast.Text);
+            float inCome = int.Parse(txtInCome.Text);
+            float exPendITure = int.Parse(txtExPendITure.Text);
+            float itemWant = int.Parse(txtWant.Text);
+            float moneyLeft = inCome - exPendITure;
+            float collect = itemWant / moneyLeft;
+
+            txtAllMoney.Text = collect.ToString();
+
+
         }
     }
 }
